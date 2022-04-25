@@ -48,6 +48,15 @@ nav li{
     font-weight: bold;
 }
 
+li a{
+    text-decoration: none;
+    color: #081C15;
+}
+
+li a:hover{
+    color: #1B4332;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -67,28 +76,37 @@ header{
 }
 
 /* Milieu de page */
+h2{
+    color: white;
+    padding: 50px;
+    margin: auto;
+}
 
 #milieuDePage{
-    height: 800px;
+    height: 1100px;
     width: auto;
     background-color: #1B4332;
 }
 
 .imgMilieuDePage{
-    background-color: rgb(34, 22, 209);
-    height: 300px;
-    width: 300px;
-    border: 5px black solid;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
 }
 
 .paragrapheMilieuDePage{
-    background-color: red;
-    border: 5px black solid;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 800px;
+}
+
+.paragrapheMilieuDePage p{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .imageEtParagraphe{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
 }
