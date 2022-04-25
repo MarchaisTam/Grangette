@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+
+*{
+    font-family:'Shadows Into Light Two', cursive;
+}
+
+
+/* Le haut de la page : */
+
+.hautDePage{
+    background: url(./images/IMG_6290\(1\).jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+.titreEtAcceuil{
+    padding: 20px 50px;
+}
+
+.grandTitre{
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    margin-top:160px;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+    width: 800px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+nav li{
+    color: #081C15;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.scroll-down{
+    color: #B7E4C7;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+    font-weight: 600;
+
+}
+
+.scroll-down:hover{
+    color: #95D5B2;
+}
+
+/* Milieu de page */
+
+#milieuDePage{
+    height: 800px;
+    width: auto;
+    background-color: #1B4332;
+}
+
+.imgMilieuDePage{
+    background-color: rgb(34, 22, 209);
+    height: 300px;
+    width: 300px;
+    border: 5px black solid;
+}
+
+.paragrapheMilieuDePage{
+    background-color: red;
+    border: 5px black solid;
+    height: 300px;
+    width: 300px;
+}
+
+.imageEtParagraphe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
